@@ -1,0 +1,130 @@
+{
+  "name": "Eunoiaverse",
+  "version": "1.0.0",
+  "description": "A creative social platform with an interactive Kutai Barat tourist destination guide, shop and trade wallet.",
+  "navigation": {
+    "type": "component",
+    "links": [
+      {
+        "name": "Explore",
+        "url": "/explore",
+        "layout": "ExploreMenu",
+        "subMenu": [
+          {
+            "name": "Discover",
+            "url": "/discover"
+          },
+          {
+            "name": "Trending",
+            "url": "/trending"
+          },
+          {
+            "name": "Categories",
+            "url": "/categories"
+          }
+        ]
+      },
+      {
+        "name": "Shop",
+        "url": "/shop",
+        "layout": "ShopMenu",
+        "subMenu": [
+          {
+            "name": "Clothing",
+            "url": "/clothing"
+          },
+          {
+            "name": "Accessories",
+            "url": "/accessories"
+          },
+          {
+            "name": "Digital Goods",
+            "url": "/digital-goods"
+          }
+        ]
+      },
+      {
+        "name": "Home",
+        "url": "/home",
+        "layout": "HomeMenu",
+        "subMenu": [
+          {
+            "name": "Feed",
+            "url": "/feed"
+          },
+          {
+            "name": "Messages",
+            "url": "/messages"
+          },
+          {
+            "name": "Notifications",
+            "url": "/notifications"
+          }
+        ]
+      },
+      {
+        "name": "Wallet",
+        "url": "/wallet",
+        "layout": "WalletMenu",
+        "subMenu": [
+          {
+            "name": "Profile",
+            "url": "/profile"
+          },
+          {
+            "name": "Balance",
+            "url": "/balance"
+          },
+          {
+            "name": "Transactions",
+            "url": "/transactions"
+          },
+          {
+            "name": "Settings",
+            "url": "/settings"
+          }
+        ]
+      }
+    ]
+  },
+  "features": [
+    {
+      "id": "social-feed",
+      "name": "Social Feed",
+      "description": "A personalized feed of posts.",
+      "menu": [
+        {
+          "name": "Posts",
+          "url": "/posts"
+        },
+        {
+          "name": "Friends\u0027 Posts",
+          "url": "/friends-posts"
+        },
+        {
+          "name": "Recommended",
+          "url": "/recommended"
+        }
+      ]
+    },
+    {
+      "id": "story-sharing",
+      "name": "Story Sharing",
+      "description": "Share moments through images and video.",
+      "menu": [
+        {
+          "name": "Create Story",
+          "url": "/create-story"
+        },
+        {
+          "name": "My Stories",
+          "url": "/my-stories"
+        }
+      ]
+    }
+  ],
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
